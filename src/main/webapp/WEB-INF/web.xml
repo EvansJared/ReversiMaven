@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+    <description>make move</description>
+    <display-name>GameServlet</display-name>
+    <servlet-name>GameServlet</servlet-name>
+    <servlet-class>controller.GameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GameServlet</servlet-name>
+    <url-pattern>/makeMove</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
